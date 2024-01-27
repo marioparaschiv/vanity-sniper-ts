@@ -1,0 +1,29 @@
+{
+	"name": "welcomer",
+	"version": "1.0.0",
+	"description": "None provided.",
+	"main": "dist/index.js",
+	"author": "Mario <mariovparaschiv@gmail.com> (github.com/localip)",
+	"license": "Unlicensed",
+	"scripts": {
+		"build": "swc src -d dist -D --delete-dir-on-start",
+		"init": "node --no-deprecation dist/index.js",
+		"start": "npm run init"
+	},
+	"dependencies": {
+		"centra": "github:localip/centra",
+		"discord-api-types": "^0.37.67",
+		"form-data": "^4.0.0",
+		"source-map-support": "^0.5.21",
+		"swc": "^1.0.11",
+		"ws": "^8.16.0"
+	},
+	"devDependencies": {
+		"@flydotio/dockerfile": "^0.5.0",
+		"@swc/cli": "^0.1.63",
+		"@swc/core": "^1.3.101",
+		"@types/centra": "^2.2.3",
+		"@types/node": "^20.10.5",
+		"@types/ws": "^8.5.10"
+	}
+}

@@ -1,0 +1,27 @@
+{
+	"compilerOptions": {
+		"target": "esnext",
+		"module": "ESNext",
+		"esModuleInterop": true,
+		"moduleResolution": "node",
+		"resolveJsonModule": true,
+		"baseUrl": "src",
+		"paths": {
+			"~/config": [
+				"../config.json"
+			],
+			"~/utilities": [
+				"utilities/index.ts"
+			],
+			"~/utilities/*": [
+				"utilities/*"
+			],
+			"~/constants": [
+				"constants.ts"
+			],
+			"~/structures/*": [
+				"structures/*"
+			]
+		}
+	}
+}

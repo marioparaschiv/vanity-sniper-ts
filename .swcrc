@@ -1,0 +1,30 @@
+{
+	"$schema": "https://json.schemastore.org/swcrc",
+	"sourceMaps": true,
+	"minify": true,
+	"module": {
+		"type": "commonjs"
+	},
+	"jsc": {
+		"externalHelpers": false,
+		"parser": {
+			"syntax": "typescript"
+		},
+		"target": "esnext",
+		"baseUrl": "src",
+		"paths": {
+			"~/constants": [
+				"constants.ts"
+			],
+			"~/config": [
+				"../config.json"
+			],
+			"~/utilities": [
+				"utilities/index.ts"
+			],
+			"~/structures/*": [
+				"structures/*"
+			]
+		}
+	}
+}

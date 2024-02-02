@@ -1,6 +1,6 @@
 {
 	"ext": "*.*",
-	"exec": "swc src -d dist -D --delete-dir-on-start && node --no-deprecation dist/index.js",
+	"exec": "swc src -d dist -D --delete-dir-on-start --strip-leading-paths && node --no-deprecation dist/index.js",
 	"ignore": [
 		"dist",
 		".git",

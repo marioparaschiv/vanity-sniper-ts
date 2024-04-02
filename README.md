@@ -1,2 +1,2 @@
 # DEPRECATED
-This project is superseded by https://github.com/localip/vanity-sniper
+This project is superseded by https://github.com/marioparaschiv/vanity-sniper

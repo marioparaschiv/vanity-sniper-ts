@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   centra:
-    specifier: github:localip/centra
-    version: github.com/localip/centra/9fe7e9d2e57b28671639c2c205c064ceadcf9c8a
+    specifier: github:marioparaschiv/centra
+    version: github.com/marioparaschiv/centra/9fe7e9d2e57b28671639c2c205c064ceadcf9c8a
   discord-api-types:
     specifier: ^0.37.67
     version: 0.37.67
@@ -1114,8 +1114,8 @@ packages:
       yargs-parser: 21.1.1
     dev: true
 
-  github.com/localip/centra/9fe7e9d2e57b28671639c2c205c064ceadcf9c8a:
-    resolution: {tarball: https://codeload.github.com/localip/centra/tar.gz/9fe7e9d2e57b28671639c2c205c064ceadcf9c8a}
+  github.com/marioparaschiv/centra/9fe7e9d2e57b28671639c2c205c064ceadcf9c8a:
+    resolution: {tarball: https://codeload.github.com/marioparaschiv/centra/tar.gz/9fe7e9d2e57b28671639c2c205c064ceadcf9c8a}
     name: centra
     version: 2.5.1
     dev: false

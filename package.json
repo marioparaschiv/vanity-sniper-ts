@@ -3,7 +3,7 @@
 	"version": "1.0.0",
 	"description": "None provided.",
 	"main": "dist/index.js",
-	"author": "Mario <mariovparaschiv@gmail.com> (github.com/localip)",
+	"author": "Mario <me@marioparaschiv.com> (github.com/marioparaschiv)",
 	"license": "Unlicensed",
 	"scripts": {
 		"build": "swc src -d dist -D --delete-dir-on-start --strip-leading-paths",
@@ -11,7 +11,7 @@
 		"start": "npm run init"
 	},
 	"dependencies": {
-		"centra": "github:localip/centra",
+		"centra": "github:marioparaschiv/centra",
 		"discord-api-types": "^0.37.67",
 		"form-data": "^4.0.0",
 		"source-map-support": "^0.5.21",
